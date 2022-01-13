@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Square Of Given Number</title>
+
+<script>
+       function square()
+       {
+          var n1 = document.getElementById("25").value
+          var num1 = parseInt(n1)
+          document.getElementById("26").value=+(num1*num1);
+       }
+
+       function cube()
+       {
+         var n2 = document.getElementById("25").value
+         var num2 = parseInt(n2);
+         document.getElementById("26").value = +(num2 * num2 * num2);
+       }
+
+       function Clear()
+       {
+           document.getElementById("25").value=""
+           document.getElementById("26").value=""
+       }
+   </script>
+
+</head>
+<body>
+
+
+<div id="1">
+
+    Enter Number  :  
+    <input type="number" id="25" name="Square"/> <br> <br>
+     <input type="button" onclick=square() value="Find Square"/> &nbsp;
+     <input type="button" onclick=cube() value="Find Cube"/> &nbsp;
+     <input type="button" onclick=Clear() value="Clear" />
+     <br>
+    &nbsp;<br> Result : <input type="number" id="26" />
+</div>
+
+<div id="2">
+
+</div>
+
+
+
+</body>
+</html>

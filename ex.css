@@ -1,0 +1,50 @@
+.alpha
+{
+    border-style: ridge;
+    font-style: italic;
+    background-color: aquamarine;
+
+    
+}
+
+
+.beta
+{
+  margin: 10%;
+    background-color: rgb(107, 154, 224);
+    border-style: double;
+  
+}
+
+.gamma
+{
+    font-weight: bold;
+    
+    text-align: start;
+}
+
+span
+{
+   background-color: blueviolet;
+   border-style: groove;
+}
+
+.style
+{
+
+    border-style: double;
+    border-radius: 2%;
+    background-color: chartreuse;
+    background-size: 50%;
+    margin: 10%;
+  
+    align-items: center;
+    
+   
+   
+    border-color: rgb(12, 12, 11);
+    height: 50%;
+    width: 40%;
+    
+
+}
